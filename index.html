@@ -11,7 +11,7 @@
   <link rel="preload" href="assets/font-2.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/font-5.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/imgRectangle7.webp" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="styles.css?v=20261027-2">
+  <link rel="stylesheet" href="styles.css?v=20261027-3">
   <script type="module" src="app.js"></script>
 </head>
 <body>
@@ -44,22 +44,26 @@
       <div class="hero-copy">
         <h1 id="hero-title" class="enter" style="--delay:100ms">Путешествия<br>по Китаю с гидами<br>на русском</h1>
         <p class="hero-description enter" style="--delay:240ms">Организуем экскурсии на месте, включая встречу и проводы в аэропорту</p>
-        <a class="button button-white enter" href="#tours" style="--delay:380ms">Подобрать тур <span class="button-icon"><img src="assets/imgFrame31461.svg" width="30" height="30" alt=""></span></a>
+        <a class="button button-white enter" href="#tours" style="--delay:380ms">Подобрать тур <span class="button-icon hero-button-icon"><img class="button-icon-default" src="assets/imgFrame31461.svg" width="30" height="30" alt=""><img class="button-icon-hover" src="assets/hero-button-hover.svg" width="30" height="30" alt=""></span></a>
       </div>
     </div>
     <div class="route-label route-from enter" style="--delay:750ms"><span class="pin"><img src="assets/imgFrame31463.svg" alt=""></span><span>От Пекина</span></div>
     <div class="route-label route-to enter" style="--delay:950ms"><span class="pin"><img src="assets/imgFrame31464.svg" alt=""></span><span>до Лхасы</span></div>
     <div class="cloud-bank" aria-hidden="true">
+      <div class="cloud-layer cloud-layer-back">
       <img class="cloud cloud-a" src="assets/cloud-3.webp" width="2241" height="925" alt="">
       <img class="cloud cloud-b" src="assets/cloud-3.webp" width="2241" height="925" alt="">
       <img class="cloud cloud-c" src="assets/cloud-3.webp" width="2241" height="925" alt="">
       <img class="cloud cloud-d" src="assets/cloud-4.webp" width="2035" height="925" alt="">
       <img class="cloud cloud-e" src="assets/cloud-5.webp" width="2268" height="925" alt="">
+      </div>
+      <div class="cloud-layer cloud-layer-front">
       <div class="cloud-wisp wisp-a"><img src="assets/cloud-6.webp" alt=""></div>
       <div class="cloud-wisp wisp-b"><img src="assets/cloud-6.webp" alt=""></div>
       <div class="cloud-wisp wisp-c"><img src="assets/cloud-6.webp" alt=""></div>
       <div class="cloud-wisp wisp-d"><img src="assets/cloud-6.webp" alt=""></div>
       <div class="cloud-wisp wisp-e"><img src="assets/cloud-6.webp" alt=""></div>
+      </div>
     </div>
   </section>
   <section class="benefits section-space" id="about" aria-labelledby="benefits-title">
@@ -89,7 +93,7 @@
   <section class="destinations section-space container" id="destinations" aria-labelledby="destinations-title">
     <h2 id="destinations-title" class="reveal">Куда отправимся?</h2>
     <div class="destination-grid">
-      <article class="destination destination-beijing reveal"><div class="destination-ribbon ribbon-wide" aria-hidden="true"><img src="assets/imgVector23.svg" alt=""></div><h3>Пекин</h3><div class="destination-links"><button data-city="Пекин" data-service="Индивидуальные экскурсии">Индивидуальные экскурсии<img src="assets/imgVector7.svg" alt=""></button><button data-city="Пекин" data-service="Групповые экскурсии">Групповые экскурсии<img src="assets/imgVector8.svg" alt=""></button><button data-city="Пекин" data-service="Трансфер">Трансфер<img src="assets/imgVector9.svg" alt=""></button></div><div class="city-art" aria-hidden="true"><img class="city-art-default" src="assets/beijing-default.svg" alt=""><img class="city-art-hover" src="assets/beijing-hover.svg" alt=""></div></article>
+      <article class="destination destination-beijing reveal"><div class="destination-ribbon ribbon-wide" aria-hidden="true"><img src="assets/imgVector23.svg" alt=""></div><h3>Пекин</h3><div class="destination-links"><button data-city="Пекин" data-service="Индивидуальные экскурсии">Индивидуальные экскурсии<img src="assets/imgVector7.svg" alt=""></button><button data-city="Пекин" data-service="Групповые экскурсии">Групповые экскурсии<img src="assets/imgVector8.svg" alt=""></button><button data-city="Пекин" data-service="Трансфер">Трансфер<img src="assets/imgVector9.svg" alt=""></button></div><div class="city-art" aria-hidden="true"><img class="city-art-default" src="assets/beijing-default.svg" alt=""><img class="city-art-hover" src="assets/beijing-hover-dark.svg" alt=""></div></article>
       <article class="destination destination-shanghai reveal" style="--delay:90ms"><div class="destination-ribbon ribbon-narrow" aria-hidden="true"><img src="assets/imgVector24.svg" alt=""></div><h3>Шанхай</h3><div class="destination-links"><button data-city="Шанхай" data-service="Индивидуальные экскурсии">Индивидуальные экскурсии<img src="assets/imgVector7.svg" alt=""></button><button data-city="Шанхай" data-service="Трансфер">Трансфер<img src="assets/imgVector9.svg" alt=""></button></div><div class="city-art" aria-hidden="true"><img class="city-art-default" src="assets/shanghai-default.svg" alt=""><img class="city-art-hover" src="assets/shanghai-hover.svg" alt=""></div></article>
       <article class="destination destination-mountains reveal"><div class="destination-ribbon ribbon-narrow" aria-hidden="true"><img src="assets/imgVector24.svg" alt=""></div><h3>Чжанцзяцзе</h3><div class="destination-links"><button data-city="Чжанцзяцзе" data-service="Трансфер">Трансфер<img src="assets/imgVector9.svg" alt=""></button></div><div class="city-art" aria-hidden="true"><img class="city-art-default" src="assets/zhangjiajie-default.svg" alt=""><img class="city-art-hover" src="assets/zhangjiajie-hover.svg" alt=""></div></article>
       <article class="destination destination-chengdu reveal" style="--delay:90ms"><div class="destination-ribbon ribbon-wide" aria-hidden="true"><img src="assets/imgVector23.svg" alt=""></div><h3>Чэнду</h3><div class="destination-links"><button data-city="Чэнду" data-service="Индивидуальные экскурсии">Индивидуальные экскурсии<img src="assets/imgVector7.svg" alt=""></button><button data-city="Чэнду" data-service="Групповые экскурсии">Групповые экскурсии<img src="assets/imgVector8.svg" alt=""></button><button data-city="Чэнду" data-service="Трансфер">Трансфер<img src="assets/imgVector9.svg" alt=""></button></div><div class="city-art" aria-hidden="true"><img class="city-art-default" src="assets/chengdu-default.svg" alt=""><img class="city-art-hover" src="assets/chengdu-hover.svg" alt=""></div></article>
